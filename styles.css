@@ -376,10 +376,7 @@ footer p {
 }
 
 /* NEW: Show missing alt attributes (for debugging) */
-img:not([alt]) {
-  border: 3px solid red;
-  outline: 2px solid yellow;
-}
+
 
 img:not([alt])::after {
   content: "Missing ALT attribute!";
